@@ -1,4 +1,3 @@
-# responsiveportfolio
 Homework 2
 
 Title
@@ -11,17 +10,9 @@ What? A project that launches a personal responsive portfolio.
 Why? To serve as a personal website/portfolio.
 How? By ensuring that the website design is responsive and has sufficient information provided.
 
-Here are some screenshots of the website:
-
-Screenshot 1:
-
-
-Screenshot 2:
-
-
 Link to Deployed Application
 
-
+https://aksco.github.io/responsiveportfolio/
 
 Usage
 
