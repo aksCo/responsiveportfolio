@@ -12,9 +12,9 @@ How? By ensuring that the website design is responsive and has sufficient inform
 
 Screenshots
 
-![alt text](/images/Contact Me Screenshot.png)
-![alt text](/images/About Me Screenshot.png)
-![alt text](/images/Portfolio Screenshot.png)
+![alt text](images/Contact Me Screenshot.png)
+![alt text](images/About Me Screenshot.png)
+![alt text](images/Portfolio Screenshot.png)
 
 
 Link to Deployed Application
