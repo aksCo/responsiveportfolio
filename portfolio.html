@@ -1,0 +1,135 @@
+<!--Portfolio Page-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<!--A Nav Bar with Name and Contact, Portfolio, About Me to the right-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1 mx-auto text-center">Aks Sreenivasan</span>
+    <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target = "#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <!--div containing toggable navigation-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+      <!--navigation menu-->  
+      <ul class="nav navbar-nav ml-auto text-right">
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href ="index.html" >About Me</a>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>
+  
+<!---Portfolio Page Header-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h1></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1> Portfolio </h1>
+        </div>
+
+<!---Using Card group for CV, GitHub and LinkedIn-->
+
+<div class="card-group text-align">
+      <div class="card">
+        <h2 class="card-title">CV</h2>
+        <img src="images/imageR.png" class="card-img-top img-thumbnail rounded mx-auto d-block" alt="image of a resume">
+        <div class="card-body col-md-8 text-center">
+          <p class="card-text text-align"> Click on CV to Download! </p>
+          <!-- <a class="btn btn-primary" href="CV.docx" role="button" style= background:brown>CV</a>  -->
+          <!-- <a href="CV.docx" class="card-link" target = ”_blank” style="text-align: center;">CV</a> -->
+        </div>
+
+        <div class="card-footer">
+            <a class="btn btn-primary float-left" href="doc/CV.docx" role="button" style= background:brown> CV </a>
+      </div> 
+</div>
+      <div class="card">
+        <h2 class="card-title">GitHub</h2>
+        <img src="images/imageG.png" class="card-img-top img-thumbnail rounded mx-auto d-block" alt="image of GitHub user">
+        <div class="card-body col-md-8 text-center">
+          <p class="card-text text-align"> Click on GitHub! </p>
+          <!-- <a class="btn btn-primary" href="https://github.com/aksCo" role="button" target = ”_blank” style= background:brown>GitHub</a> -->
+          <!-- <a href="https://github.com/aksCo" class="card-link" target = ”_blank” style="text-align: center;">Github</a> -->
+        </div>
+        <div class="card-footer">
+        <a class="btn btn-primary center" href="https://github.com/aksCo" role="button" target = ”_blank” style= background:brown> GitHub</a>   
+        </div>
+    </div>
+            <div class="card"> 
+            <h2 class="card-title">LinkedIn</h2>
+            <img src="images/imageL.png" class="card-img-top img-thumbnail rounded mx-auto d-block" alt="image of LinkedIn user">
+            <div class="card-body col-md-8 text-center">
+            <p class="card-text text-align"> Click on LinkedIn! </p> 
+            </div>
+
+        <div class="card-footer">
+            <a class="btn btn-primary float-left" href="https://www.linkedin.com/in/aks-sreenivasan/" role="button" target = ”_blank” style= background:brown > LinkedIn</a>
+        </div>
+            </div>
+    </div>
+
+  
+  
+<!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright Aks</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

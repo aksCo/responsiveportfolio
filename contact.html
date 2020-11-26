@@ -1,0 +1,131 @@
+<!--Contact Page-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<!--A Nav Bar with Name and Contact, Portfolio, About Me to the right-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1 mx-auto text-center">Aks Sreenivasan</span>
+    <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target = "#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <!--div containing toggable navigation-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+      <!--navigation menu-->  
+      <ul class="nav navbar-nav ml-auto text-right">
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href ="index.html" >About Me</a>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>
+  
+  
+
+<!--Contact Form-->
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages">
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h1></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <h1>Contact Me</h1>
+              </div>
+            </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name"> Name </label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email"> Email Address </label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message"> Message </label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please, leave a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message" style="background: brown;">
+            </div>
+        </div>
+    
+    </div>
+
+</form>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright Aks</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
